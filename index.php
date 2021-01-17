@@ -1,4 +1,8 @@
-
+<?php
+$cookie_name = "admin";
+$cookie_value = "Akmal Sindorov";
+setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
+?>
 <!DOCTYPE html>
 <html lang="uz-UZ">
 	<head>
